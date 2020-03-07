@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_title"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/login_button"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+    <ImageView
+        android:id="@+id/backpressed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1.7"
+        android:background="@drawable/ic_menu_white" />
+
+    <TextView
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="left|center"
+        android:text="Quiz"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:paddingLeft="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/txt_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:hint="overall"
+            android:inputType="text"
+            android:textAllCaps="true"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/txt_overall_gobal_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:inputType="number"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/txt_overall_india"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:inputType="number"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white" />
+</LinearLayout>
